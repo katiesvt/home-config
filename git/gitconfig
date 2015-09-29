@@ -1,0 +1,44 @@
+[user]
+[core]
+  quotepath = false
+  autocrlf = input
+  whitespace = trailing-space,space-before-tab
+  editor = vim
+	excludesfile = /Users/ksievert/.gitignore_global
+[mergetool]
+  keepBackup = false
+  prompt = false
+[push]
+  default = simple
+[credential]
+  helper = osxkeychain
+[color]
+  ui = true
+[alias]
+  s = status -s
+  co = checkout
+  br = branch -t
+  c = commit
+  m = merge
+  f = fetch
+  dt = difftool
+  mt = mergetool
+  rb = rebase
+  ri = rebase --interactive
+  rc = rebase --continue
+  sh = show --format=medium -w
+  ai = add -ip
+  a = add
+  st = stash
+[user]
+	name = Katelyn Sievert
+	email = katelyn.sievert@gmail.com
+  initials = ks
+[branch]
+  autosetupmerge = always
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
