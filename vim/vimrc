@@ -1,0 +1,26 @@
+" http://dougblack.io/words/a-good-vimrc.html
+
+syntax enable
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+set showcmd "
+
+filetype indent on
+set pastetoggle=<F2>
+
+set lazyredraw
+
+set showmatch
+
+set hidden
+set wildmode=list:longest
+set ignorecase
+set smartcase
+set title
+set scrolloff=3
+set ruler
+
+set hlsearch
+set incsearch
