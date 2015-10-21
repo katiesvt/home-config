@@ -37,3 +37,4 @@ SET fish_pager_color_completion:normal
 SET fish_pager_color_description:555\x1eyellow
 SET fish_pager_color_prefix:cyan
 SET fish_pager_color_progress:cyan
+SET fish_user_abbreviations:g\x20git\x1ebi\x20bundle\x20install\x1egpf\x20git\x20push\x20\x2d\x2dforce\x20origin\x1egl\x20git\x20pull\x1ebr\x20brew\x1egc\x20git\x20commit\x1egp\x20git\x20push\x20\x2du\x20origin

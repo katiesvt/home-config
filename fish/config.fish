@@ -6,6 +6,8 @@ source $OMF_PATH/init.fish
 rvm default
 abbr g git
 abbr bi 'bundle install'
-abbr gp 'git push'
-abbr gpf 'git push --force'
+abbr gpf 'git push --force origin'
 abbr gl 'git pull'
+abbr br brew
+abbr gc 'git commit'
+abbr gp 'git push -u origin'
