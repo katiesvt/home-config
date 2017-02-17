@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Controls>
+  <Action Name="Toggle Remove" State="Pressed">
+    <Button>Q</Button>
+  </Action>
+  <Action Name="Build Outpost" State="Pressed">
+    <Button>E</Button>
+  </Action>
+  <Action Name="Build Dynamite" State="Pressed">
+    <Button>W</Button>
+  </Action>
+  <Action Name="Solidify Mode" State="Down">
+    <Button>LeftControl</Button>
+    <Button>RightControl</Button>
+  </Action>
+  <Action Name="Wall Mode" State="Down">
+    <Button>LeftShift</Button>
+    <Button>RightShift</Button>
+  </Action>
+  <Action Name="Speed Up Time" State="Down">
+    <Button>S</Button>
+  </Action>
+  <Action Name="Slow Down Time" State="Pressed">
+    <Button>Space</Button>
+  </Action>
+  <Action Name="Goto City" State="Pressed">
+    <Button>F1</Button>
+    <Button>Home</Button>
+  </Action>
+  <Action Name="Goto Warning" State="Pressed">
+    <Button>Enter</Button>
+  </Action>
+  <Action Name="Zoom In" State="Down">
+    <Button>Add</Button>
+  </Action>
+  <Action Name="Zoom Out" State="Down">
+    <Button>Subtract</Button>
+  </Action>
+</Controls>
